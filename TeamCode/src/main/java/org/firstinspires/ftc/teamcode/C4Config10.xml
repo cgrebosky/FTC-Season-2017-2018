@@ -1,0 +1,32 @@
+<?xml version='1.0' encoding='UTF-8' standalone='yes' ?>
+<Robot type="FirstInspires-FTC">
+    <LynxUsbDevice name="Expansion Hub Portal 1" serialNumber="DQ176M3D" parentModuleAddress="2">
+        <LynxModule name="Expansion Hub 1" port="1">
+			<TetrixMotor name="motor_fl" port="0" />
+            <TetrixMotor name="motor_bl" port="1" />
+            <RevRoboticsCoreHexMotor name="motor_relic" port="2" />
+            <Servo name="servo_arm" port="0" />
+            <Servo name="servo_flick" port="1" />
+            <Servo name="servo_glyph_pan" port="2" />
+            <Servo name="servo_holder_left" port="3" />
+            <Servo name="servo_holder_right" port="4" />
+            <LynxColorSensor name="color_jewelR" port="0" bus="0" />
+            <LynxColorSensor name="color_jewelL" port="0" bus="1" />
+            <LynxEmbeddedIMU name="imu" port="0" bus="0" />
+        </LynxModule>
+        <LynxModule name="Expansion Hub 2" port="2">
+			<NeveRest60Gearmotor name="motor_lift1" port="0" />
+            <NeveRest60Gearmotor name="motor_lift2" port="1" />
+            <TetrixMotor name="motor_br" port="2" />
+            <TetrixMotor name="motor_fr" port="3" />
+            <Servo name="servo_glyphCollectorTop" port="0" />
+            <Servo name="servo_glyphCollectorL" port="1" />
+            <Servo name="servo_glyphCollectorR" port="2" />
+            <Servo name="servo_claw" port="3" />
+            <Servo name="servo_clawy" port="4" />
+            <Servo name="servo_clawx" port="5" />
+            <DigitalDevice name="touch_limit" port="1" />
+            <LynxEmbeddedIMU name="imu 1" port="0" bus="0" />
+        </LynxModule>
+    </LynxUsbDevice>
+</Robot>
